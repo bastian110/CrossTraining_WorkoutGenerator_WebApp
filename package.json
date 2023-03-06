@@ -1,0 +1,22 @@
+{
+  "name": "crosstraining_webapp",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bastian110"
+  },
+  "keywords": [
+    "crosstraining",
+    "ai"
+  ],
+  "author": "Bastian Chuttarsing",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
