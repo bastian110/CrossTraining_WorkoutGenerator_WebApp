@@ -10,61 +10,132 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://kit.fontawesome.com/285e0eb58d.css" crossorigin="anonymous">
 
+
   </head>
-  <body>
-    <main class="d-flex flex-nowrap">
-        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
-            <div class="row">
-                <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                    <i class="fa-solid fa-wave-pulse"></i>
-                    <span class="fs-4">CrossMind</span>
-                </a>
-            </div>
-            <hr>
+  
 
-            <div class="col">
-                <ul class="nav row gy-3 nav-pills flex-column mb-auto">
-                    <li class="nav-item">
-                      <a href="#" class="nav-link active" aria-current="page">
-                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-                        Overview
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="nav-link text-white">
-                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-                        Let's Workout !
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="nav-link text-white">
-                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-                        Articles
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="nav-link text-white">
-                        <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-                        Settings
-                      </a>
-                    </li>
-                  </ul>
+
+  <body >
+    <div class="d-flex flex-nowrap ">
+      <div class="row">
+        <div class="col-2 ">
+          <!-- Your sidebar code -->
+          <nav id="sidebar" class="flex-grow-1 " >
+            <div class="d-flex flex-column  p-3 vh-100 text-bg-dark" >
+              <div class="row">
+                  <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                      <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                      <i class="fa-solid fa-wave-pulse"></i>
+                      <span class="fs-4">CrossMind</span>
+                  </a>
+              </div>
+              <hr>
+      
+              <div class="col">
+                  <ul class="nav row gy-3 nav-pills flex-column mb-auto">
+                      <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">
+                          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                          Overview
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link text-white">
+                          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                          Let's Workout !
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link text-white">
+                          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                          Articles
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link text-white">
+                          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                          Settings
+                        </a>
+                      </li>
+                    </ul>
             </div>
-            
+          </nav>
         </div>
+        <div class="col-10">
+          <!-- Your main content code -->
+          <main >
+            <section id="head">
+              <div class="container py-2">
+                <div class="row p-4 bg-light ">
+                  <div class="bg-secondary py-4">
+                </div>
+              </div>
+  
+            </section>
+  
+            <section id="metrics">
+              <div class="container py-2 ">
+                <div class="row justify-content-start">
+                  <div class="col-4 p-4 bg-light">
+                      <div class="bg-secondary py-4 w-100">
+                      </div>
+                  </div>
+                  <div class="col-4 p-4 bg-light">
+                    <div class="bg-secondary py-4 w-100">
+                    </div>
+                  </div>
+                  <div class="col-4 p-4 bg-light">
+                    <div class="bg-secondary py-4 w-100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+      
+            <section id="overview">
+              <div class="container py-2">
+                <div class="row bg-light p-3">
+                  <div class="col-7 ">
+                    <figure class="figure">
+                      <img src="/Users/bastianchuttarsing/Desktop/Capture d’écran 2022-10-25 à 13.12.10.png" class="figure-img img-fluid rounded" alt="...">
+                      <figcaption class="figure-caption text-end">Performance Trend.</figcaption>
+                    </figure>
+                  </div>
+                  <di class="col pb-5">
+                    <div class="bg-secondary py-4 w-100 h-100 ">
+                    </div>
+                  </di>
+                </div>
+              </div>
+            </section>
 
-        <section id="Overview"></section>
-        <section id="metrics"></section>
-        <section id="graphVisual"></section>
-        <section id="weekInformations"></section>
-    </main>
+            <section id="weekInformations">
+              <div class="container py-2">
+                <div class="row bg-light">
+                  <div class="col-6">
+                    <div class="bg-secondary py-4 w-100 h-100 ">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="bg-secondary py-4 w-100 h-100 ">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
+          </main>
+          
+                 
+        </div>
+      </div>
+    </div>
+    
 
 
 
     <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
   </body>
+
 </html>
