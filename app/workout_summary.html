@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css" />
+
+</head>
+
+
+
+
+
+<body>
+
+    <header class="py-4">
+        <nav class="navbar navbar-expand-md bg-light fixed-top">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../app/overview.html">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../app/workout.html">Let's Workout
+                                    !</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-current="page" href="#">Articles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-current="page" href="#">Settings</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <a class="navbar-brand" href="#">Crossmind</a>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!--  main content code -->
+    <main class="my-2">
+
+        <section class="my-3" id="summary">
+            <div class="container p-3 bg-light">
+                <h2>Workout generated</h2>
+                <h3>WARM UP | 6'</h3>
+                <p>Insister sur échauffement des genoux</p>
+
+                <h4>ENOM 9'</h4>
+                <ul>
+                    <li>Max rep Pompes (bras 65 degrés par rapport au buste, écartement des épaules)</li>
+                    <li>Max rep Fentes arrières</li>
+                    <li>60'' planche gainage</li>
+                </ul>
+
+                <p>2' pause</p>
+
+                <h4>ENOM 12'</h4>
+                <ul>
+                    <li>Pompes inclinées</li>
+                    <li>Tirage horizontal élastique</li>
+                    <li>Max rep Superman</li>
+                    <li>Pike pompes</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="my-3" id="explanation">
+            <div class="container p-3 bg-light">
+                <h2>Technical explanation by chatGPT</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="bg-secondary py-4 w-100">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-secondary py-4 w-100">
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section class="my-3" id="generate">
+            <div class="container d-flex justify-content-center">
+                <a type="button" class="btn btn-success btn-lg" href="../app/workout_summary.html">Generate</a>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+
+    <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+        </svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+</footer>
+
+</html>
