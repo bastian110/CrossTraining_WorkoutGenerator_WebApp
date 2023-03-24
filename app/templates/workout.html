@@ -73,7 +73,7 @@
                                 {% for equipment in equipment_list %}
                                 <div class="col-sm-4">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="{{ loop.index }}" value="{{ equipment }}">
+                                        <input class="form-check-input" type="checkbox" id="{{ loop.index }}" name="equipment" value="{{ equipment }}">
                                         <label class="form-check-label" for="{{ loop.index }}">{{ equipment }}</label>
                                     </div>
                                 </div>
@@ -90,64 +90,25 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="skill1">
+                                <input class="form-check-input" type="checkbox" name="skills" id="skill1" value="Skill 1">
                                 <label class="form-check-label" for="skill1">
                                     Skill 1
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="skill2">
+                                <input class="form-check-input" type="checkbox" name="skills" id="skill2" value="Skill 2">
                                 <label class="form-check-label" for="skill2">
                                     Skill 2
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="skill3">
+                                <input class="form-check-input" type="checkbox" name="skills" id="skill3" value="Skill 3">
                                 <label class="form-check-label" for="skill3">
                                     Skill 3
                                 </label>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="form-check ">
-                                <input class="form-check-input" type="checkbox" id="skill4">
-                                <label class="form-check-label" for="skill4">
-                                    Skill 4
-                                </label>
-                            </div>
-                            <div class="form-check ">
-                                <input class="form-check-input" type="checkbox" id="skill5">
-                                <label class="form-check-label" for="skill5">
-                                    Skill 5
-                                </label>
-                            </div>
-                            <div class="form-check ">
-                                <input class="form-check-input" type="checkbox" id="skill6">
-                                <label class="form-check-label" for="skill6">
-                                    Skill 6
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="form-check ">
-                                <input class="form-check-input" type="checkbox" id="skill7">
-                                <label class="form-check-label" for="skill7">
-                                    Skill 7
-                                </label>
-                            </div>
-                            <div class="form-check ">
-                                <input class="form-check-input" type="checkbox" id="skill8">
-                                <label class="form-check-label" for="skill8">
-                                    Skill 8
-                                </label>
-                            </div>
-                            <div class="form-check ">
-                                <input class="form-check-input" type="checkbox" id="skill9">
-                                <label class="form-check-label" for="skill9">
-                                    Skill 9
-                                </label>
-                            </div>
-                        </div>
+
                         <!-- add more skills as needed -->
                     </div>
                 </div>
@@ -159,7 +120,7 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-4">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="duration" id="upto15">
+                                <input class="form-check-input" type="radio" name="duration"  value="1" id="upto15">
                                 <label class="form-check-label" for="upto15">
                                     Up to 15 minutes
                                 </label>
@@ -167,18 +128,18 @@
                         </div>
                         <div class="col-md-6 col-lg-4">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="duration" id="15to30">
                                 <label class="form-check-label" for="15to30">
                                     15 to 30 minutes
                                 </label>
+                                <input class="form-check-input" type="radio" name="duration" value="2" id="15to30">
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="duration" id="30to45">
                                 <label class="form-check-label" for="30to45">
                                     30 to 45 minutes
                                 </label>
+                                <input class="form-check-input" type="radio" name="duration" value="3" id="30to45">
                             </div>
                         </div>
                     </div>
@@ -208,7 +169,7 @@
 
 
 </body>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fixed-bottom fixed-bottom">
     <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
 
     <a href="/"
