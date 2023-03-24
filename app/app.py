@@ -2,10 +2,10 @@ from flask import Flask, render_template, request
 import pandas as pd
 
 
-from workout_generator import process_workout_data, generate_complete_wod
-from load_pd_dataset import getListUniqueElementInDfColomn, load_pandas_data_from_csv
+from workout_generator import processWorkoutData, generateCompleteWod
+from load_pd_dataset import getListUniqueElementInDfColomn, loadPandasDataFromCsv
 
-df = load_pandas_data_from_csv('/Users/bastianchuttarsing/Documents/Crosstraining_WebApp/data-science/dataset/dataset_exercices_crosstraining.csv')
+df = loadPandasDataFromCsv('/Users/bastianchuttarsing/Documents/Crosstraining_WebApp/data-science/dataset/dataset_exercices_crosstraining.csv')
 difficulty = 5 # to be defined by the user's profile
 
 app = Flask(__name__)
@@ -31,8 +31,8 @@ def process_workout():
     checked_duration = int(request.form.get('duration'))
     print("checked_duration#############", checked_duration)
     
-    result = process_workout_data(checked_equipment, checked_skills, checked_duration)
-    workout = generate_complete_wod(df, checked_duration , list(set(df['Muscles Worked'].str.split(' ').sum()))[1:] , checked_equipment, difficulty)
+    result = processWorkoutData(checked_equipment, checked_skills, checked_duration)
+    workout = generateCompleteWod(df, checked_duration , list(set(df['Muscles Worked'].str.split(' ').sum()))[1:] , checked_equipment, difficulty)
     return render_template('workout_summary.html', workout_summary=workout)
 
 if __name__ == '__main__':
