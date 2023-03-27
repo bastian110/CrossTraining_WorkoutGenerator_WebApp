@@ -7,24 +7,28 @@ def processWorkoutData(equipment, skills, duration):
     print(result)
     return result
 
-
-
-
-
-
-def chooseExercice(dataframe, muscles_list, equipment_list, difficulty):
+def chooseExercice(dataframe, muscles_list, equipment_list, difficulty , list_exercice_already_choose):
     list_exo = []
     random.shuffle(muscles_list)
     for muscle in muscles_list:
-
-        exercice = list(dataframe.loc[(dataframe['Equipment'].isin(equipment_list)) 
+        
+        exercices = list(dataframe.loc[(dataframe['Equipment'].isin(equipment_list)) 
                                                        & (dataframe['Difficulty'] <= difficulty) & (dataframe['Muscles Worked'] == muscle)]['Name'])
-        #print(exercice)
-        if not exercice == []:
-            exercice_by_muscle = random.choice(exercice)
-            list_exo.append(exercice_by_muscle)
-        #else: print('no exercice for ',muscle, 'with this equipment and difficulty')
+        
+
+
+        # Continue choosing a random exercise until it's not already in list_exo
+        while exercices:
+            chosen_exercise = random.choice(exercices)
+            if chosen_exercise not in list_exercice_already_choose:
+                break
+            exercices.remove(chosen_exercise)
+
+        # If an exercise is found, add it to the list
+        if exercices:
+            list_exo.append(chosen_exercise)
     random.shuffle(list_exo)
+    
     return list_exo
 
 def weightExerciceGestion(dataframe, exercices_list, user):
@@ -52,28 +56,42 @@ def wodComposition(dataframe, num_exercices_per_composant, choosing_exercice):
     wod_type = random.choice(type_wod)
     if wod_type =='emom':
         duration = random.choice(np.arange(6, 16, num_exercices_per_composant))
+        pause = 0
     elif wod_type=='amrap':
         duration = random.choice(np.arange(3, 14, num_exercices_per_composant))
+        pause = 0
     elif wod_type=='fortime':
         duration = random.uniform(0,100)
+        pause = 0
         print('no duration limit')
     elif wod_type=='tabata':
         duration = random.choice(np.arange(6, 16, num_exercices_per_composant))
         pause = random.choice(np.arange(10, 25, 5))
-        duration = (duration, pause)
 
-    workout_compo[wod_type] = [exercices_list, duration]
+
+    workout_compo["wod_type"] =wod_type 
+    workout_compo['exercices_list'] = exercices_list 
+    workout_compo['duration'] = (duration, pause)
     return workout_compo
 
 def generateCompleteWod(dataframe, number_composant, muscles_list, equipment_list, difficulty):
         #duration =1, 2 ou 3 number of 'emom', 'amrap', 'fortime' or 'tabata'
         
         workout=[]
+        list_exercice_already_choose = []
         for i in range(number_composant):
-            num_exercises = random.randint(1,number_composant)
-            choosing_exercice = chooseExercice(dataframe, muscles_list, equipment_list, difficulty)
-            workout.append(wodComposition(dataframe, number_composant,choosing_exercice))
+            num_exercises = round(random.uniform(-1,1))
+            number_composant = number_composant + num_exercises
+            print("####Number comp= ",number_composant) # if numb composant =1 di by 0
+            choosing_exercice = chooseExercice(dataframe, muscles_list, equipment_list, difficulty, list_exercice_already_choose)
+            each_workout = wodComposition(dataframe, number_composant,choosing_exercice)
+            workout.append(each_workout)
+            list_exercice_already_choose.append( item for item in each_workout['exercices_list'])
         return(workout)
 
 
 
+
+
+
+    

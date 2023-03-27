@@ -33,6 +33,7 @@ def process_workout():
     
     result = processWorkoutData(checked_equipment, checked_skills, checked_duration)
     workout = generateCompleteWod(df, checked_duration , list(set(df['Muscles Worked'].str.split(' ').sum()))[1:] , checked_equipment, difficulty)
+    print(workout)
     return render_template('workout_summary.html', workout_summary=workout)
 
 if __name__ == '__main__':

@@ -58,15 +58,24 @@
 
 
 
-    <!--  main content code -->
+    <!-- main content code -->
     <main class="my-2">
-
         <section class="my-3" id="summary">
             <div class="container p-3 bg-light">
                 <h2>Workout generated</h2>
-                <p>{{workout_summary}}</p>
+                {% for workout in workout_summary %}
+                {% if workout['wod_type'] == 'fortime' %}
+                    <h3>{{ workout['wod_type'] }}, Timed performance </h3>
+                {% else %}
+                    <h3>{{ workout['wod_type'] }}, {{workout['duration'][0]}}' {{workout['duration'][1]}}'' rest </h3>
+                    {% endif %}
+                    {% for exercice in workout['exercices_list'] %}
+                        <p>{{ exercice }}</p>
+                    {% endfor %}
+                {% endfor %}
             </div>
         </section>
+
 
         <section class="my-3" id="explanation">
             <div class="container p-3 bg-light">
