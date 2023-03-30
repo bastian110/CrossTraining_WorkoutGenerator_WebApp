@@ -30,5 +30,6 @@ def getListUniqueElementInDfColomn(dataframe, colomn_name):
     list_unique_element.sort()
     return list_unique_element
 
-
+def getDescriptionFromName(dataframe, name):
+    return 
 

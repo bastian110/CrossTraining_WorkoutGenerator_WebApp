@@ -1,102 +1,113 @@
-Name,Equipment,Difficulty,Muscles Worked,Benefits,,,,
-Barbell Snatch,Barbell,Advanced,Shoulder Back Arms Legs Core,Increase speed and strength, improve balance, burn calories and build lean mass,,
-Clean and Press,Barbell,Advanced,Legs Glute Arms Shoulder Core,Build endurance, strength, and hypertrophy, burn calories while growing lean mass, increase explosiveness
-Barbell Front/Back Squat,Barbell,Beginner to Intermediate,Quads Core,Build sturdy legs, improve athletic and weight lifting performance,,,
-Barbell Push Press,Barbell,Beginner to Intermediate,Shoulders Legs,Build strength, power, and stability, enhance your ability to do better in sports and weight lifting,
-Barbell Hang Clean,Barbell,Beginner,Legs Arms Shoulder,Increase your balance and explosive power, build strength and muscles,,,
-Power Clean and Split Jerk,Barbell,Pro,Legs Arms Shoulder Core,Enhance quickness, strength, and balance, burn many calories in quick time and build lean mass,
-Barbell Overhead Squat,Barbell,Beginner to Intermediate,Legs and Shoulder,Build lower_body strength and mass,,,,
-Military Press,Barbell,Beginner,Shoulder,Build sturdy shoulders,,,,
-Barbell Bench Press,Barbell,Beginner,Chest,Develop a stronger Upper_Body, especially chest,,,
-The Deadlift and its variations,Barbell,Beginner to Advanced,Legs Glute Core and Back,Build endurance, strength, and hypertrophy, improve grip strength, increase power and speed
-Barbell Squat Jerk,Barbell,Intermediate to Advanced,Shoulder Legs,Build shoulder mobility and strength, increase lower_body strength,,,
-Split Jerk,Barbell,Beginner to Intermediate,Shoulder Legs,Develop explosive power and muscular shoulders,,,,
-Barbell High Pull,Barbell,Intermediate,Legs Shoulder Back and Arms,Excellent for building upper and lower_body strength,,,,
-Barbell Rowing,Barbell,Beginner,Back,Strengthen your back muscles and build a wider back,,,,
-The Zercher Squat,Barbell,Intermediate,Legs and Forearms,Increase lower_body and forearm strength, challenge your strength and endurance,,,
-The Split Clean,Barbell,Intermediate to Advanced,Shoulder Legs Core and Arms,Develop strong legs and explosive power,,,,
-The Good Morning,Barbell,Intermediate,Hamstrings lower_back,Build strength and reduce the risk of injury in the lower_back, glute, and hamstrings,,
-Barbell Jammer,Barbell,Intermediate to Advanced,Quads Hams Calves Glute Shoulder Chest and Triceps,Work on your Full_Body and build mass,,,,
-Sumo Deadlift,Barbell,Intermediate,Legs Glute and Back,Build sturdy quads and glute without putting much stress on the lumbar spine, improve grip strength and pulling ability for day-to-day activities,,,
-Dumbbell Front-Rack Lunge,Dumbbells,Intermediate,Legs and Glutes,Strengthens lower_body and improves mobility,,,,
-DB Clean and Press,Dumbbells,Intermediate,Legs and Shoulders,Improves strength, speed, and balance,,
-Dumbbell Hang Power Clean,Dumbbells,Intermediate,Legs  Core  and Shoulders,Improves ability to move and act quickly,,,,
-Dumbbell Squat,Dumbbells,Beginner,Quads,Builds stronger quads,,,,
-DB Push Press,Dumbbells,Beginner,Shoulders and Legs,Enhances strength and speed, and increases shoulder strength and mobility,,,
-Dumbbell ManMaker,Dumbbells,Advanced,Full_Body,Engages entire body at once,,,,
-Dumbbell Overhead Press,Dumbbells,Beginner,Shoulders,Strengthens shoulders,,,,
-DB Romanian Deadlift,Dumbbells,Beginner,Hamstrings Glutes and lower_back,Strengthens hamstrings and lower_back  enhances balance  and decreases risk of injury,,,,
-Dumbbell Farmers Carry,Dumbbells,Beginner,Full_Body,Strengthens entire body by simply walking with dumbbells,,,,
-Dumbbell Thruster,Dumbbells,Intermediate,Legs and Shoulders,Builds quads and shoulders with one movement,,,,
-DB Power Snatch,Dumbbells,Intermediate,Legs Glutes  and Back,Improves quickness and strengthens shoulder,,,,
-Dumbbell Power Clean,Dumbbells,Intermediate,Shoulders and Legs,Improves quickness while strengthening shoulder,,,,
-Dumbbell Step-Up,Dumbbells,Beginner,Legs Glutes  and Back,Builds stronger legs and increases explosive power,,,,
-DB Overhead Squat,Dumbbells,Beginner,Shoulders and Quads,Strengthens shoulders and quads,,,,
-Dumbbell Turkish Get-Up,Dumbbells,Intermediate,Full_Body,Strengthens Full_Body, improves posture, and increases shoulder stability,,
-DB Pushup to Renegade Row,Dumbbells,Advanced,Upper_Body,Builds muscular strength and improves balance and stabilization,,,,
-Dumbbell Russian Twist,Dumbbells,Intermediate,Legs Glutes  and Back,Builds sturdy core and improves balance,,,,
-Dumbbell Deadlift,Dumbbells,Beginner,Full_Body,Strengthens entire body,,,,
-Dumbbell Surrenders,Dumbbells,Intermediate,Full_Body,Strengthens entire body,,,,
-Dumbbell Lunges to Hammer Curl,Dumbbells,Intermediate,Legs and Biceps,Builds legs and biceps.,,,,
-Turkish Get-up, Kettlebell, Advanced, Full_Body, N/A,,,,
-Russian Kettlebell Swing, Kettlebell, Beginner, Shoulders Legs, N/A, N/A,,,
-American Kettlebell Swing, Kettlebell, Beginner to Intermediate, Full_Body, N/A,,,,
-The Kettlebell Snatch, Kettlebell, Intermediate, Full_Body, N/A,,,,
-Kettlebell Good Morning, Kettlebell, Beginner, Hamstring, lower_back, N/A,,,
-Single-Leg Romanian Deadlift, Kettlebell, Intermediate, Hamstring, lower_back, Improves strength and balance,,,
-Kettlebell Gorilla Row, Kettlebell, Beginner to Intermediate, Back, Builds a muscular back,,,,
-Kettlebell Thrusters, Kettlebell, Beginner to Intermediate, Full_Body, N/A,,,,
-KB Goblet Squats, Kettlebell, Beginner to Intermediate, Quadriceps, Glute, Targets the side muscles of your thighs to build defined legs,,,
-Kettlebell Front Raise, Kettlebell, Beginner, Shoulders, Reinforces the front part of shoulders more specifically,,,,
-Kettlebell Taters, Kettlebell, Intermediate, Full_Body, Helps build strong quads and improve balance,,,,
-KB Farmers Carry, Kettlebell, Beginner, Full_Body, N/A,,,,
-Kettlebell Windmill, Kettlebell, Intermediate, Full_Body, N/A,,,,
-Kettlebell Deadlift and its Variations, Kettlebell, Beginner to Advanced, Full_Body,,,,,
-RingPush-Up,Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,
-ForwardRolltoSupport, Rings, Advanced, Full_Body, Improving balance and flexibility boost your muscular strength, and improve your body shape,,,
-SkintheCat, Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,
-L-SitonRings, Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,
-RingHandstandPushUp, Rings,Challenging,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,
-StrictToes-to-Rings, Rings,Challenging,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,
-RingDips,Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,
-RingRow,Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,
-Pull-Up,Pull-Up Bar,Intermediate,Back and Biceps,Builds a sturdy Upper_Body, improves balance, strength, and body posture,
-Hanging Windshield Wiper,Pull-Up Bar,Advanced,Core,Improves core strength and stability,,,,
-Butterfly Pull-Up,Pull-Up Bar,Intermediate,Back and Biceps,Strengthens the Upper_Body and improves grip strength,,,,
-L-Sit on Bar,Pull-Up Bar,Intermediate,Core and Biceps,Improves core and Upper_Body strength and stability,,,,
-Toes-to-Bar,Pull-Up Bar,Advanced,Core,Targets the core muscles and improves grip strength,,,,
-Chest-to-Bar Pull-Ups,Pull-Up Bar,Advanced,Core,Targets the core and Upper_Body muscles and improves grip strength,,,,
-Pull-Up Bar Muscle Up,Pull-Up Bar,Advanced,Full_Body,Improves overall body strength, coordination, and mobility,,
-Pull-Up Bar Knees-to-Elbows,Pull-Up Bar,Advanced,Core,Back, and Shoulders,Targets the core, back, and shoulder muscles and improves grip strength
-Negative Pull-Ups,Pull-Up Bar,Beginner,Back,Strengthens the back muscles and helps to scale up for more advanced variations,,,,
-Chin-Ups,Pull-Up Bar,Beginner,Biceps,Improves Upper_Body strength and helps to scale up for more advanced variations,,,,
-Handstand Push-up,Bodyweight,Advanced,Shoulder, Arms, and Core,Develops shoulder strength, overall stability, and balance
-Box Jumps,Bodyweight, Beginner,Full_Body,Strengthens lower_body and improves quick pace ability,,,,
-Burpee and its variations,Bodyweight, Intermediate,Full_Body,High-intense movement that builds up the entire body, burns many calories, and improves explosiveness,,
-Pistol Squat,Bodyweight,Intermediate,Legs,Improves strength and mobility,,,,
-Handstand Walk,Bodyweight,Advanced,Upper_Body, Builds stability, balance and engages the Full_Body,,,
-Squat Thrust,Bodyweight,Beginner,Full_Body,Works on the entire body and enhances endurance,,,,
-The Double-Under,Bodyweight,Intermediate,Full_Body,High-intensity workout that burns plenty of calories in a short time and builds stamina,,,,
-Floor L-Sit,Bodyweight,Intermediate,Arms and Core,Improves balance and strength and forges core,,,,
-Box Step-Up,Bodyweight,Beginner,lower_body,Strengthens lower_body and improves balance and overall performance,,,,
-Squat and its variations,Bodyweight,Beginner,Full_Body,Strengthens lower_body, builds muscles, and improves balance and overall performance,,
-Plank and its variations,Bodyweight,Intermediate,lower_body,Fortifies core, increases endurance, and tones abdominal muscles,,
-Mountain Climbers,Bodyweight,Beginner,Core,High-intensity core workout that helps you build a sturdy core and burn plenty of calories in a quick time,,,,
-Tuck ups,Bodyweight,Intermediate,Core,Incorporate it into your core workout routine to strengthen your abs and oblique,,,,
-Leg Raises/Lifts,Bodyweight,Beginner,Core,Helps you develop a sturdy core,,,,
-Dragon Fly,Bodyweight,Advanced,Core,One of the best and most effective abs workouts you can do to build six-pack abs. Moreover, it improves your ability to control your body movement,,,
-Bear Crawl,Bodyweight,Beginner,Full_Body,Engages your entire body and boosts stamina,,,,
-Knee to opposite Elbow Mountain Climber,Bodyweight,Intermediate,Core,,,,,
-V ups,Bodyweight,Intermediate,Core,Helps you forge core and build defined abs,,,,
-Squat Jump,Bodyweight,Beginner,Full_Body,Increases explosive power, boosts stamina, and burns many calories,,
-Hollow Rocks,Bodyweight,Beginner,Core,Strengthens and tones your abdominal muscles.,,,,
-Dumbbell Front-Rack Lunge,Dumbbells,Intermediate,Legs and Glutes,Strengthens lower_body and improves mobility,,,,
-DB Clean and Press,Dumbbells,Intermediate,Legs and Shoulders,Improves strength, speed, and balance,,
-TheWallBall,WallBall,Beginner,Full_Body,The wall ball is an excellent workout for developing strength and endurance.,,,,
-RopeClimbing,Rope,Intermediate,Full_Body,Rope climbing is excellent for developing a solid grip, Upper_Body strength, and the ability to move fast.,,
-L-SittoShoulderStand, P-bar,Advanced,Full_Body,It is one of the most sophisticated workouts to improve balance, strength, and flexibility.,,
-BarDips,Barbell,Intermediate,Upper_Body,The dips strengthen the chest and triceps and help you build a strong body.,,,,
-BarLSit,Barbell,Intermediate,Core,,,,,
-Running,Outside,Beginner,Full_Body,Running is a great way to build endurance, burn plenty of calories, and lose weight. You can also check out basic but crucial tips for improving longer and faster.,,
-Sprinting,Outside,Intermediate,Full_Body,It is an anaerobic workout, helps you utilize your stored fats during the movement, and increases weight loss.,,
+Name,Equipment,Difficulty,Muscles Worked,Benefits,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,short_description
+Barbell Snatch,Barbell,Advanced,Shoulder Back Arms Legs Core,Increase speed and strength, improve balance, burn calories and build lean mass,,,The barbell snatch is a weightlifting exercise in which the barbell is lifted from the ground to overhead in one continuous motion.
+Clean and Press,Barbell,Advanced,Legs Glute Arms Shoulder Core,Build endurance, strength, and hypertrophy, burn calories while growing lean mass, increase explosiveness,"The Clean and Press is an exercise that works the whole body. It is a compound movement that uses the legs, back, and shoulders to lift the weight from the ground to overhead."
+Barbell Front/Back Squat,Barbell,Beginner to Intermediate,Quads Core,Build sturdy legs, improve athletic and weight lifting performance,,,,"The barbell front/back squat is an exercise that works the quads, hamstrings, and glutes."
+Barbell Push Press,Barbell,Beginner to Intermediate,Shoulders Legs,Build strength, power, and stability, enhance your ability to do better in sports and weight lifting,,"The barbell push press is an exercise that works the shoulders, triceps, and upper body. It is a compound exercise that also involves the lower body, specifically the quads and glutes."
+Barbell Hang Clean,Barbell,Beginner,Legs Arms Shoulder,Increase your balance and explosive power, build strength and muscles,,,,"The barbell hang clean is an exercise that works the muscles of the legs, hips, and back. The exercise is performed by holding a barbell in the hands with the feet shoulder-width apart and the knees bent. The barbell is then pulled up to the shoulders and then explosively lifted overhead."
+Power Clean and Split Jerk,Barbell,Pro,Legs Arms Shoulder Core,Enhance quickness, strength, and balance, burn many calories in quick time and build lean mass,,The Power Clean and Split Jerk is an exercise that uses explosive power to clean the barbell from the ground and then split jerk it overhead.
+Barbell Overhead Squat,Barbell,Beginner to Intermediate,Legs and Shoulder,Build lower_body strength and mass,,,,,"The barbell overhead squat is an exercise that works the quads, glutes, and core while also improving mobility and stability."
+Military Press,Barbell,Beginner,Shoulder,Build sturdy shoulders,,,,,"The military press is an exercise that works the shoulders, triceps, and upper back. It is performed by pressing a weight overhead with the arms extended."
+Barbell Bench Press,Barbell,Beginner,Chest,Develop a stronger Upper_Body, especially chest,,,,The barbell bench press is an exercise that works the chest muscles.
+The Deadlift and its variations,Barbell,Beginner to Advanced,Legs Glute Core and Back,Build endurance, strength, and hypertrophy, improve grip strength, increase power and speed,"are a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, then lower it back to the ground.
 
+The Deadlift and its variations are a weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, then lower it back to the ground."
+Barbell Squat Jerk,Barbell,Intermediate to Advanced,Shoulder Legs,Build shoulder mobility and strength, increase lower_body strength,,,,"The barbell squat jerk is an exercise that works the quads, glutes, and hamstrings while also challenging the core and stabilizer muscles."
+Split Jerk,Barbell,Beginner to Intermediate,Shoulder Legs,Develop explosive power and muscular shoulders,,,,,"The Split Jerk is an exercise that involves explosively jumping up and landing in a split position, with one leg in front of the other."
+Barbell High Pull,Barbell,Intermediate,Legs Shoulder Back and Arms,Excellent for building upper and lower_body strength,,,,,"The barbell high pull is an exercise that works the muscles of the back, shoulders, and arms. It is a compound exercise that also helps to build core strength."
+Barbell Rowing,Barbell,Beginner,Back,Strengthen your back muscles and build a wider back,,,,,"The barbell row is an exercise that works the back muscles. It is performed by holding a barbell in both hands and pulling it up to the chest, keeping the elbows close to the body."
+The Zercher Squat,Barbell,Intermediate,Legs and Forearms,Increase lower_body and forearm strength, challenge your strength and endurance,,,,"The Zercher Squat is a weightlifting exercise in which the barbell is held in the crooks of the elbows, in front of the lifter's chest."
+The Split Clean,Barbell,Intermediate to Advanced,Shoulder Legs Core and Arms,Develop strong legs and explosive power,,,,,"and Jerk
+
+The Split Clean and Jerk is an exercise that involves lifting a barbell from the ground to the shoulders, then jerking it overhead."
+The Good Morning,Barbell,Intermediate,Hamstrings lower_back,Build strength and reduce the risk of injury in the lower_back, glute, and hamstrings,,,"is an exercise that works the entire posterior chain, including the hamstrings, glutes, and lower back.
+
+The Good Morning is an exercise that works the entire posterior chain by flexing at the hips and keeping the back straight."
+Barbell Jammer,Barbell,Intermediate to Advanced,Quads Hams Calves Glute Shoulder Chest and Triceps,Work on your Full_Body and build mass,,,,,The Barbell Jammer is a strength and conditioning exercise that uses a barbell to develop explosive power in the lower body.
+Sumo Deadlift,Barbell,Intermediate,Legs Glute and Back,Build sturdy quads and glute without putting much stress on the lumbar spine, improve grip strength and pulling ability for day-to-day activities,,,,"High Pull
+
+The Sumo Deadlift High Pull is a compound exercise that targets the quads, glutes, hamstrings, and shoulders."
+Dumbbell Front-Rack Lunge,Dumbbells,Intermediate,Legs and Glutes,Strengthens lower_body and improves mobility,,,,,"This exercise works the quads, glutes, and hamstrings while also strengthening the core and upper body."
+DB Clean and Press,Dumbbells,Intermediate,Legs and Shoulders,Improves strength, speed, and balance,,,"The DB Clean and Press is an exercise that works the muscles of the shoulders, chest, and arms."
+Dumbbell Hang Power Clean,Dumbbells,Intermediate,Legs  Core  and Shoulders,Improves ability to move and act quickly,,,,,The Dumbbell Hang Power Clean is an exercise that uses a dumbbell to help develop explosive power in the lower body and hips.
+Dumbbell Squat,Dumbbells,Beginner,Quads,Builds stronger quads,,,,,"Clean
+
+The Dumbbell Squat Clean is an exercise that works the quads, hamstrings, glutes, and core. It is a great exercise for building strength and power."
+DB Push Press,Dumbbells,Beginner,Shoulders and Legs,Enhances strength and speed, and increases shoulder strength and mobility,,,,The DB Push Press is an exercise that uses the momentum of the body to push the dumbbells up overhead.
+Dumbbell ManMaker,Dumbbells,Advanced,Full_Body,Engages entire body at once,,,,,"The Dumbbell ManMaker is a full-body exercise that works the chest, shoulders, triceps, core, and legs."
+Dumbbell Overhead Press,Dumbbells,Beginner,Shoulders,Strengthens shoulders,,,,,"The Dumbbell Overhead Press is an exercise that works the shoulders, triceps, and upper back. It is performed by holding a dumbbell in each hand and pressing them overhead."
+DB Romanian Deadlift,Dumbbells,Beginner,Hamstrings Glutes and lower_back,Strengthens hamstrings and lower_back  enhances balance  and decreases risk of injury,,,,,"The DB Romanian Deadlift is a compound exercise that targets the posterior chain, specifically the hamstrings and glutes. The exercise is performed by holding a dumbbell in each hand and hingeing at the hips to lower the weight down the front of the legs before returning to the starting position."
+Dumbbell Farmers Carry,Dumbbells,Beginner,Full_Body,Strengthens entire body by simply walking with dumbbells,,,,,"The Dumbbell Farmers Carry is an exercise that works the muscles of the upper body, specifically the shoulders, arms, and core. The exercise is performed by holding a dumbbell in each hand and walking forward."
+Dumbbell Thruster,Dumbbells,Intermediate,Legs and Shoulders,Builds quads and shoulders with one movement,,,,,A thruster is a weightlifting move that consists of a front squat into an overhead press.
+DB Power Snatch,Dumbbells,Intermediate,Legs Glutes  and Back,Improves quickness and strengthens shoulder,,,,,"The DB Power Snatch is a full-body exercise that works the quads, glutes, hamstrings, lats, shoulders, and core."
+Dumbbell Power Clean,Dumbbells,Intermediate,Shoulders and Legs,Improves quickness while strengthening shoulder,,,,,The Dumbbell Power Clean is an explosive movement that starts with the dumbbells on the ground and ends with them in the racked position at shoulder level.
+Dumbbell Step-Up,Dumbbells,Beginner,Legs Glutes  and Back,Builds stronger legs and increases explosive power,,,,,The Dumbbell Step-Up is an exercise that works the muscles of the legs and buttocks.
+DB Overhead Squat,Dumbbells,Beginner,Shoulders and Quads,Strengthens shoulders and quads,,,,,"The DB overhead squat is an exercise that works the quads, glutes, and shoulders."
+Dumbbell Turkish Get-Up,Dumbbells,Intermediate,Full_Body,Strengthens Full_Body, improves posture, and increases shoulder stability,,,"The Dumbbell Turkish Get-Up is an exercise that works the entire body and is a great way to build strength, stability, and mobility."
+DB Pushup to Renegade Row,Dumbbells,Advanced,Upper_Body,Builds muscular strength and improves balance and stabilization,,,,,"The DB Pushup to Renegade Row is an exercise that works the chest, shoulders, and triceps while also challenging the core."
+Dumbbell Russian Twist,Dumbbells,Intermediate,Legs Glutes  and Back,Builds sturdy core and improves balance,,,,,The Dumbbell Russian Twist is an exercise that works the obliques by twisting the torso back and forth while holding a dumbbell.
+Dumbbell Deadlift,Dumbbells,Beginner,Full_Body,Strengthens entire body,,,,,"The Dumbbell Deadlift is an exercise that works the muscles of the back, legs, and core. It is a compound movement that requires the use of multiple joints, making it an effective way to build strength and muscle."
+Dumbbell Surrenders,Dumbbells,Intermediate,Full_Body,Strengthens entire body,,,,,"The Dumbbell Surrender is an exercise that challenges your balance and coordination while working your arms, shoulders, and core."
+Dumbbell Lunges to Hammer Curl,Dumbbells,Intermediate,Legs and Biceps,Builds legs and biceps.,,,,,"This exercise works the legs, glutes, and hamstrings while also working the biceps."
+Turkish Get-up, Kettlebell, Advanced, Full_Body, N/A,,,,,"The Turkish Get-up is an exercise that works the entire body and is a great way to build strength, stability, and mobility."
+Russian Kettlebell Swing, Kettlebell, Beginner, Shoulders Legs, N/A, N/A,,,,The Russian Kettlebell Swing is a ballistic hip-hinge exercise that develops explosive hip power and builds strength in the posterior chain.
+American Kettlebell Swing, Kettlebell, Beginner to Intermediate, Full_Body, N/A,,,,,The American Kettlebell Swing is an exercise that uses a kettlebell to swing between your legs and then up to eye level.
+The Kettlebell Snatch, Kettlebell, Intermediate, Full_Body, N/A,,,,,"The Kettlebell Snatch is an explosive exercise that works the entire body, including the shoulders, back, legs, and core."
+Kettlebell Good Morning, Kettlebell, Beginner, Hamstring, lower_back, N/A,,,,The Kettlebell Good Morning is an exercise that strengthens the back and legs by hingeing at the hips and keeping the back straight while holding a kettlebell in front of the body.
+Single-Leg Romanian Deadlift, Kettlebell, Intermediate, Hamstring, lower_back, Improves strength and balance,,,,"The Single-Leg Romanian Deadlift is an exercise that works the hamstrings, glutes, and core. It is performed by holding a weight in one hand and keeping the other hand on the hip. The leg not holding the weight is kept straight as you hinge at the hip, lowering the weight toward the floor. The back must stay straight and the core engaged throughout the movement."
+Kettlebell Gorilla Row, Kettlebell, Beginner to Intermediate, Back, Builds a muscular back,,,,,"The Kettlebell Gorilla Row is an exercise that works the back, shoulders, and arms. It is a great exercise for developing strength and stability in the upper body."
+Kettlebell Thrusters, Kettlebell, Beginner to Intermediate, Full_Body, N/A,,,,,"Kettlebell Thrusters are a compound exercise that works the quads, glutes, shoulders, and core."
+KB Goblet Squats, Kettlebell, Beginner to Intermediate, Quadriceps, Glute, Targets the side muscles of your thighs to build defined legs,,,,"The KB Goblet Squat is a compound exercise that works the quads, glutes, and hamstrings."
+Kettlebell Front Raise, Kettlebell, Beginner, Shoulders, Reinforces the front part of shoulders more specifically,,,,,The kettlebell front raise is an exercise that works the shoulders and upper back. It is performed by holding a kettlebell in one hand and raising it in front of the body.
+Kettlebell Taters, Kettlebell, Intermediate, Full_Body, Helps build strong quads and improve balance,,,,,Kettlebell Taters is an exercise that uses a kettlebell to improve your explosive power.
+KB Farmers Carry, Kettlebell, Beginner, Full_Body, N/A,,,,,The KB Farmers Carry is an exercise that challenges your grip strength and endurance by having you hold a heavy kettlebell in each hand and walk for a set distance or time.
+Kettlebell Windmill, Kettlebell, Intermediate, Full_Body, N/A,,,,,"The Kettlebell Windmill is an exercise that works the entire body, but is especially good for the shoulders, core and legs."
+Kettlebell Deadlift and its Variations, Kettlebell, Beginner to Advanced, Full_Body,,,,,,"Kettlebell Deadlifts are a great way to build strength and power in the lower body. They can be performed with one or two kettlebells, and can be done with a variety of different grip options."
+RingPush-Up,Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,,"The Ring Push-Up is an exercise that strengthens the chest, shoulders, and triceps muscles. It is performed by placing your hands on two rings, and then pushing your body up and down."
+ForwardRolltoSupport, Rings, Advanced, Full_Body, Improving balance and flexibility boost your muscular strength, and improve your body shape,,,,The forward roll to support is an exercise that develops strength and coordination by rolling forward and then using the momentum to support the body in an upright position.
+SkintheCat, Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,,"The principe of this exercice is to move your body in a fluid and continuous motion, using your hands and feet to keep yourself balanced on the balls of your feet."
+L-SitonRings, Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,,"The L-Sit is an isometric exercise that works the muscles of the core, hips, and thighs. It is performed by sitting on the ground with the legs extended straight out in front of the body and the arms extended straight overhead. The body is then raised off the ground so that only the heels of the hands and the toes of the feet are touching the ground. The body is held in this position for as long as possible."
+RingHandstandPushUp, Rings,Challenging,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,,"The RingHandstandPushUp is an advanced Crossfit and Cross-training move that uses bodyweight and gravity to build strength, power, and endurance in the shoulders, chest, and arms."
+StrictToes-to-Rings, Rings,Challenging,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,,The athlete starts in a hanging position with their feet off the ground and their toes pointed. They then raise their toes up to touch the rings before lowering back down to the starting position.
+RingDips,Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,,"The RingDip is an exercise that uses two rings suspended from a bar, with the athlete's hands gripping the rings and their feet on the floor. The athlete then dips their body down between the rings, before pressing back up to the starting position."
+RingRow,Rings,Advanced,Full_Body,Improving balance and flexibility boost your muscular strength, and improve your body shape,,,,"The RingRow is an excellent exercise for developing upper body strength and stability. It can be performed with a variety of grip positions to target different muscle groups, and can be progressed or regressed to suit any fitness level."
+Pull-Up,Pull-Up Bar,Intermediate,Back and Biceps,Builds a sturdy Upper_Body, improves balance, strength, and body posture,,"The Pull-Up is an exercise that works the muscles of the back, shoulders, and arms."
+Hanging Windshield Wiper,Pull-Up Bar,Advanced,Core,Improves core strength and stability,,,,,The Hanging Windshield Wiper is an exercise that works the obliques by hanging from a bar and then twisting the body from side to side.
+Butterfly Pull-Up,Pull-Up Bar,Intermediate,Back and Biceps,Strengthens the Upper_Body and improves grip strength,,,,,"The butterfly pull-up is an exercise that strengthens the muscles of the back, shoulders, and arms."
+L-Sit on Bar,Pull-Up Bar,Intermediate,Core and Biceps,Improves core and Upper_Body strength and stability,,,,,"The L-Sit on Bar is an exercise that works the muscles of the legs and core. The person performing the exercise starts in a sitting position on a bar, and then raises their legs so that their body forms an L-shape. The person then holds this position for a period of time."
+Toes-to-Bar,Pull-Up Bar,Advanced,Core,Targets the core muscles and improves grip strength,,,,,"The goal of the toes-to-bar exercise is to bring your toes up to the bar, using your abdominal muscles."
+Chest-to-Bar Pull-Ups,Pull-Up Bar,Advanced,Core,Targets the core and Upper_Body muscles and improves grip strength,,,,,"The chest-to-bar pull-up is an exercise that works the muscles of the back, shoulders, and arms. The exercise is performed by pulling oneself up to a bar, with the hands gripping the bar at shoulder-width apart, and the feet off the ground."
+Pull-Up Bar Muscle Up,Pull-Up Bar,Advanced,Full_Body,Improves overall body strength, coordination, and mobility,,,"The Pull-Up Bar Muscle Up is an exercise that works the muscles of the back, shoulders, and arms."
+Pull-Up Bar Knees-to-Elbows,Pull-Up Bar,Advanced,Core,Back, and Shoulders,Targets the core, back, and shoulder muscles and improves grip strength,The principe of this exercice is to pull your knees up to your elbows while hanging from a pull-up bar.
+Negative Pull-Ups,Pull-Up Bar,Beginner,Back,Strengthens the back muscles and helps to scale up for more advanced variations,,,,,The goal of the negative pull-up is to train the muscles used in the pulling motion of a pull-up. The exercise is performed by starting at the top of a pull-up and then slowly lowering yourself down until your arms are fully extended.
+Chin-Ups,Pull-Up Bar,Beginner,Biceps,Improves Upper_Body strength and helps to scale up for more advanced variations,,,,,"The chin-up is an upper-body strength exercise that targets the biceps, lats, and other muscles of the back and arms. The exercise is performed by gripping a chin-up bar with the palms facing toward the body and pulling the body up until the chin is above the bar."
+Handstand Push-up,Bodyweight,Advanced,Shoulder, Arms, and Core,Develops shoulder strength, overall stability, and balance,"The handstand push-up is an exercise that works the shoulders, triceps, and core. It is performed by placing your hands on the ground and kicking your feet up into the air, then lowering your body down to the ground and pushing back up."
+Box Jumps,Bodyweight, Beginner,Full_Body,Strengthens lower_body and improves quick pace ability,,,,,The goal of box jumps is to jump onto a box or other elevated surface and then quickly jump back down.
+Burpee and its variations,Bodyweight, Intermediate,Full_Body,High-intense movement that builds up the entire body, burns many calories, and improves explosiveness,,,"The burpee is a full body exercise that works the legs, chest, arms, and core. The move starts from a standing position, then drops into a squat, then kicks the feet back into a push-up position. From there, the athlete does a push-up, then brings the feet back into a squat, and then stands back up."
+Pistol Squat,Bodyweight,Intermediate,Legs,Improves strength and mobility,,,,,The pistol squat is a one-legged squat where the non-working leg is extended out in front of the body and the heel of the working leg remains in contact with the ground throughout the entire movement.
+Handstand Walk,Bodyweight,Advanced,Upper_Body, Builds stability, balance and engages the Full_Body,,,,"The goal of the handstand walk is to move your body from a standing position to a handstand, and then walk your hands forward until your feet are back in line with your hands."
+Squat Thrust,Bodyweight,Beginner,Full_Body,Works on the entire body and enhances endurance,,,,,"The squat thrust is a full-body movement that works the legs, core, and arms. It is a great exercise for improving coordination and balance."
+The Double-Under,Bodyweight,Intermediate,Full_Body,High-intensity workout that burns plenty of calories in a short time and builds stamina,,,,,".
+
+The Double-Under is an exercise that involves jumping rope with both feet together, making sure the rope passes under your feet twice for each jump."
+Floor L-Sit,Bodyweight,Intermediate,Arms and Core,Improves balance and strength and forges core,,,,,"This exercise works the muscles of the core, hips, and thighs. It is performed by sitting on the floor with the legs extended straight out in front of the body and the arms extended straight overhead. The body is then lifted off the floor so that the only points of contact are the heels of the hands and the buttocks. The legs and torso should be in a straight line throughout the exercise."
+Box Step-Up,Bodyweight,Beginner,lower_body,Strengthens lower_body and improves balance and overall performance,,,,,"The box step-up is an exercise that works the lower body, specifically the quads, glutes, and hamstrings. The exercise is performed by stepping up onto a box or platform with one leg and then driving up with the other leg to stand on top of the box."
+Squat and its variations,Bodyweight,Beginner,Full_Body,Strengthens lower_body, builds muscles, and improves balance and overall performance,,,"The squat is a compound, full-body exercise that works the quads, hamstrings, glutes, core, and lower back. There are many variations of the squat, such as the front squat, overhead squat, and split squat."
+Plank and its variations,Bodyweight,Intermediate,lower_body,Fortifies core, increases endurance, and tones abdominal muscles,,,The plank is an isometric exercise that works the core muscles. It is done by holding the body in a push-up position with the elbows and toes on the ground.
+Mountain Climbers,Bodyweight,Beginner,Core,High-intensity core workout that helps you build a sturdy core and burn plenty of calories in a quick time,,,,,Mountain Climbers are a great way to get your heart rate up and work your core at the same time.
+Tuck ups,Bodyweight,Intermediate,Core,Incorporate it into your core workout routine to strengthen your abs and oblique,,,,,"The Tuck Up is an abdominal exercise that works the rectus abdominis, transverse abdominis, and obliques. The exercise is performed by lying on your back with your knees bent and feet flat on the floor. You then tuck your chin to your chest and curl your upper body off the floor, reaching your hands to your knees."
+Leg Raises/Lifts,Bodyweight,Beginner,Core,Helps you develop a sturdy core,,,,,"The principle of this exercise is to raise your legs up and down in a controlled manner, using your abdominal muscles to keep your balance."
+Dragon Fly,Bodyweight,Advanced,Core,One of the best and most effective abs workouts you can do to build six-pack abs. Moreover, it improves your ability to control your body movement,,,,"The dragonfly is a compound movement that works the entire body. It is a great exercise for developing strength, power, and coordination."
+Bear Crawl,Bodyweight,Beginner,Full_Body,Engages your entire body and boosts stamina,,,,,The Bear Crawl is an exercise that works the entire body. It is a great way to build strength and endurance.
+Knee to opposite Elbow Mountain Climber,Bodyweight,Intermediate,Core,,,,,,"The Knee to Opposite Elbow Mountain Climber is an exercise that works the entire body, but especially the core. The exercise is performed by starting in a push-up position and then bringing one knee up to the opposite elbow. The other leg remains straight. The exercise is then repeated with the other leg."
+V ups,Bodyweight,Intermediate,Core,Helps you forge core and build defined abs,,,,,The V up is an exercise that works the abs and the hip flexors. The person starts lying on their back with their legs straight and their arms at their sides. They then raise their torso and legs off the ground and bring them together to form a V shape with their body.
+Squat Jump,Bodyweight,Beginner,Full_Body,Increases explosive power, boosts stamina, and burns many calories,,,The squat jump is an explosive movement that starts from a squatting position and ends with a jump.
+Hollow Rocks,Bodyweight,Beginner,Core,Strengthens and tones your abdominal muscles.,,,,,"Hollow rocks are an excellent core exercise that work the abs, obliques, and lower back. They are performed by lying on your back with your feet in the air and your knees bent, then rocking back and forth while keeping your back and butt off the ground."
+Dumbbell Front-Rack Lunge,Dumbbells,Intermediate,Legs and Glutes,Strengthens lower_body and improves mobility,,,,,"This exercise works the quads, glutes, and hamstrings while also strengthening the core and upper body."
+DB Clean and Press,Dumbbells,Intermediate,Legs and Shoulders,Improves strength, speed, and balance,,,"The DB Clean and Press is an exercise that works the muscles of the shoulders, chest, and arms."
+TheWallBall,WallBall,Beginner,Full_Body,The wall ball is an excellent workout for developing strength and endurance.,,,,,The Wall Ball is an exercise that uses a medicine ball and a wall to develop explosive power in the legs and trunk.
+RopeClimbing,Rope,Intermediate,Full_Body,Rope climbing is excellent for developing a solid grip, Upper_Body strength, and the ability to move fast.,,,The goal of this exercise is to climb a rope using only your hands.
+L-SittoShoulderStand, P-bar,Advanced,Full_Body,It is one of the most sophisticated workouts to improve balance, strength, and flexibility.,,,"The L-Sit is an isometric exercise that works the muscles of the core, hips, and shoulders. The exercise is performed by sitting on the ground with the legs extended straight out in front of the body and the arms by the sides. The body is then lifted off the ground and held in the air with the legs and torso forming a 90-degree angle."
+BarDips,Barbell,Intermediate,Upper_Body,The dips strengthen the chest and triceps and help you build a strong body.,,,,,The principle of this exercise is to use your body weight to dip down and then back up again using your arms for support.
+BarLSit,Barbell,Intermediate,Core,,,,,,The principle of this exercise is to keep your back straight and your core engaged while sitting on a bar and lowering your legs out in front of you.
+Running,Outside,Beginner,Full_Body,Running is a great way to build endurance, burn plenty of calories, and lose weight. You can also check out basic but crucial tips for improving longer and faster.,,,The principle of this exercise is to run as fast as you can for a set distance or time.
+Sprinting,Outside,Intermediate,Full_Body,It is an anaerobic workout, helps you utilize your stored fats during the movement, and increases weight loss.,,,The goal of sprinting is to run as fast as possible over a short distance.

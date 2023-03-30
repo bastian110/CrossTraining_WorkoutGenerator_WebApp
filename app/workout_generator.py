@@ -88,8 +88,11 @@ def generateCompleteWod(dataframe, number_composant, muscles_list, equipment_lis
             choosing_exercice = chooseExercice(dataframe, muscles_list, equipment_list, difficulty, list_exercice_already_choose)
             each_workout = wodComposition(dataframe, number_composant,choosing_exercice)
             workout.append(each_workout)
-            list_exercice_already_choose.append( item for item in each_workout['exercices_list'])
-        return(workout)
+            list_exercice_already_choose.extend( item for item in each_workout['exercices_list'])
+        list_exercice_already_chooseToDict = {item: dataframe.loc[dataframe['Name'] == item, 'short_description'].iloc[0] for item in set(list_exercice_already_choose)}
+
+        #print(list_exercice_already_chooseToDict)
+        return(workout, list_exercice_already_chooseToDict)
 
 
 
