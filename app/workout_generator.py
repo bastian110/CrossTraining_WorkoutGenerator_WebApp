@@ -82,7 +82,9 @@ def generateCompleteWod(dataframe, number_composant, muscles_list, equipment_lis
         for i in range(number_composant):
             num_exercises = round(random.uniform(-1,1))
             number_composant = number_composant + num_exercises
-            print("####Number comp= ",number_composant) # if numb composant =1 di by 0
+            print("####Number comp= ", number_composant) 
+            if number_composant == 0:
+                number_composant += 1
             choosing_exercice = chooseExercice(dataframe, muscles_list, equipment_list, difficulty, list_exercice_already_choose)
             each_workout = wodComposition(dataframe, number_composant,choosing_exercice)
             workout.append(each_workout)

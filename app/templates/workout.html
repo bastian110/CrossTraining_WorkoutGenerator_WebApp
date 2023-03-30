@@ -73,7 +73,7 @@
                                 {% for equipment in equipment_list %}
                                 <div class="col-sm-4">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="{{ loop.index }}" name="equipment" value="{{ equipment }}">
+                                        <input class="equipement-checkbox" type="checkbox" id="{{ loop.index }}" name="equipment" value="{{ equipment }}" >
                                         <label class="form-check-label" for="{{ loop.index }}">{{ equipment }}</label>
                                     </div>
                                 </div>
@@ -84,30 +84,23 @@
                 </div>
             </section>
 
-            <section class="bg-secondary p-3 my-3" id="skills">
+            <section class="bg-secondary p-3 my-3" id="difficulty">
                 <div class="container bg-light py-5">
-                    <h2>Choose your Skills</h2>
+                    <h2>Choose your Difficulty</h2>
                     <div class="row">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="skills" id="skill1" value="Skill 1">
-                                <label class="form-check-label" for="skill1">
-                                    Skill 1
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="skills" id="skill2" value="Skill 2">
-                                <label class="form-check-label" for="skill2">
-                                    Skill 2
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="skills" id="skill3" value="Skill 3">
-                                <label class="form-check-label" for="skill3">
-                                    Skill 3
-                                </label>
+                        <div class="col-12">
+                            <div class="row">
+                                {% for difficulty in difficulty_list %}
+                                <div class="col-sm-4">
+                                    <div class="form-check">
+                                        <input class="difficulty-checkbox" type="radio" id="{{ loop.index }}" name="difficulty" value="{{ difficulty }}" >
+                                        <label class="form-check-label" for="{{ loop.index }}">{{ difficulty }}</label>
+                                    </div>
+                                </div>
+                                {% endfor %}
                             </div>
                         </div>
+                    </div>
 
                         <!-- add more skills as needed -->
                     </div>
@@ -117,29 +110,23 @@
             <section class="my-3" id="duration">
                 <div class="container bg-light py-5">
                     <h2>Choose duration time training</h2>
-                    <div class="row">
+                    <div class="row" required>
                         <div class="col-md-6 col-lg-4">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="duration"  value="1" id="upto15">
-                                <label class="form-check-label" for="upto15">
-                                    Up to 15 minutes
-                                </label>
+                                <input class="duration-checkbox" type="radio" name="duration"  value="1" id="upto15">
+                                <label class="form-check-label" for="upto15">Up to 15 minutes</label>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4">
                             <div class="form-check">
-                                <label class="form-check-label" for="15to30">
-                                    15 to 30 minutes
-                                </label>
-                                <input class="form-check-input" type="radio" name="duration" value="2" id="15to30">
+                                <input class="duration-checkbox" type="radio" name="duration" value="2" id="15to30">
+                                <label class="form-check-label" for="15to30">15 to 30 minutes</label>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4">
                             <div class="form-check">
-                                <label class="form-check-label" for="30to45">
-                                    30 to 45 minutes
-                                </label>
-                                <input class="form-check-input" type="radio" name="duration" value="3" id="30to45">
+                                <input class="duration-checkbox" type="radio" name="duration" value="3" id="30to45">
+                                <label class="form-check-label" for="30to45">30 to 45 minutes</label>
                             </div>
                         </div>
                     </div>
@@ -149,7 +136,7 @@
             <!-- Generate button -->
             <section class="my-3" id="generate">
                 <div class="container d-flex justify-content-center">
-                    <button type="submit" class="btn btn-primary">Generate</button>
+                    <button type="submit" class="btn btn-primary" id="submit-button">Generate</button>
                 </div>
             </section>
 
@@ -169,7 +156,7 @@
 
 
 </body>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fixed-bottom fixed-bottom">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mt-auto ">
     <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
 
     <a href="/"
@@ -189,6 +176,7 @@
 
     <script src="{{ url_for('static', filename='node_modules/@popperjs/core/dist/umd/popper.min.js') }}"></script>
     <script src="{{ url_for('static', filename='node_modules/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script_workout.js') }}"></script>
 </footer>
 
 </html>
