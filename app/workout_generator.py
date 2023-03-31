@@ -47,24 +47,27 @@ def weightExerciceGestion(dataframe, exercices_list, user):
     return list_exercice_with_weight
 
 def wodComposition(dataframe, num_exercices_per_composant, choosing_exercice):
-    type_wod=['emom', 'amrap', 'fortime', 'tabata']
+    type_wod=['EMOM', 'AMRAP', 'FOR TIME', 'TABATA']
     workout_compo = {}
     duration = 0
-    exercices_list = random.sample(choosing_exercice, num_exercices_per_composant + int(random.uniform(-1,1)))
+    try:
+        exercices_list = random.sample(choosing_exercice, num_exercices_per_composant + int(random.uniform(-1,1)))
+    except ValueError:
+        exercices_list =  random.sample(choosing_exercice, num_exercices_per_composant-1)
     #list_exercice_with_weight = weightExerciceGestion(exercices_list, user)
 
     wod_type = random.choice(type_wod)
-    if wod_type =='emom':
+    if wod_type =='EMOM':
         duration = random.choice(np.arange(6, 16, num_exercices_per_composant))
         pause = 0
-    elif wod_type=='amrap':
+    elif wod_type=='AMRAP':
         duration = random.choice(np.arange(3, 14, num_exercices_per_composant))
         pause = 0
-    elif wod_type=='fortime':
-        duration = random.uniform(0,100)
+    elif wod_type=='FOR TIME':
+        duration = "Timed performance"
         pause = 0
         print('no duration limit')
-    elif wod_type=='tabata':
+    elif wod_type=='TABATA':
         duration = random.choice(np.arange(6, 16, num_exercices_per_composant))
         pause = random.choice(np.arange(10, 25, 5))
 
