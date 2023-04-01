@@ -97,7 +97,7 @@
                           <p class="card-text" style="text-align: justify;">{{exercice_description_dict[exercice]}}</p>
 
                             <div class="card-bottom-button">
-                                <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#executionDetailsModal" data-exercise-name="{{exercice}}">View execution details</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#executionDetailsModal" data-exercise-name="{{exercice}}" data-video-url="{{video_url}}">View execution details</button>
                             </div>
 
                         </div>
@@ -118,6 +118,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
+                        <iframe id="videoIframe" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p></p>
                     </div>
 
