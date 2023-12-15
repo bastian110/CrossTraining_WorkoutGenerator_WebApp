@@ -1,2 +1,2 @@
 # cross-training_webapp
-Cross training application AI enhanced 
+Cross training workout generator application AI enhanced.
