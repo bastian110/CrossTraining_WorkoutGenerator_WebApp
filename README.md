@@ -13,6 +13,7 @@ The Cross-Training Workout Generator is a dynamic web application designed to ta
 - Bootstrap 5
 - Web Scraping for Exercise Data
 - YouTube API for video tutorial integration
+- GPT3.5 API to generate synthetic data
 
 ## Installation
 
